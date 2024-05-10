@@ -10,8 +10,8 @@ load("//js/private:maybe.bzl", http_archive = "maybe_http_archive")
 def rules_js_dependencies():
     http_archive(
         name = "bazel_skylib",
-        sha256 = "b8a1527901774180afc798aeb28c4634bdccf19c4d98e7bdd1ce79d1fe9aaad7",
-        urls = ["https://github.com/bazelbuild/bazel-skylib/releases/download/1.4.1/bazel-skylib-1.4.1.tar.gz"],
+        sha256 = "9f38886a40548c6e96c106b752f242130ee11aaa068a56ba7e56f4511f33e4f2",
+        urls = ["https://github.com/bazelbuild/bazel-skylib/releases/download/1.6.1/bazel-skylib-1.6.1.tar.gz"],
     )
 
     # TODO(2.0): update to rules_nodejs v6
